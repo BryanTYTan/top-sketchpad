@@ -22,12 +22,33 @@
             <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/sun.svg"
                 decoding="async" alt="sun" width="15" height="15">
         </button>
+
+        <button class="create-pad">
+            Create new drawing pad
+        </button>
+
         <button id="clear-drawing-pad">
             Clean Drawing Pad
         </button>
     </div>
 
     <div class="drawing-box"></div>
+
+    <div id="popup_msg" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close-button">&times;</span>
+                <h2>Create New Drawing pad</h2>
+            </div>
+            <div class="modal-body">
+                <label for="pad_size">Squares per side:</label>
+                <input type="number" id="pad_size" placeholder="Enter Size...">
+            </div>
+            <div class="modal-footer">
+                <button id="submitButton">Submit</button>
+            </div>
+        </div>
+    </div>
 
     <script src="src/js/dark.js"></script>
     <script src="src/js/sketchpad.js"></script>
