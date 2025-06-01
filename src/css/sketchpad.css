@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+}
+
+.drawing-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+    border: solid 2px black;
+}
+
+.drawing-pad {
+    width: 25%;
+    padding: 50px;
+}
+
+.drawn {
+    background-color: black;
+}
