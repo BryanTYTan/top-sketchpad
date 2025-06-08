@@ -68,6 +68,8 @@ function mouseEnter(event) {
 document.querySelector('#clear-drawing-pad').addEventListener('click', clearDrawingPad);
 
 function clearDrawingPad(event) {
+    var boxes = document.querySelectorAll('.drawing-pad');
+
     for (let i = 0; i < boxes.length; i++) {
         boxes[i].classList.remove('drawn');
     }
