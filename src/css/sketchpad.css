@@ -12,11 +12,6 @@
     border: solid 2px black;
 }
 
-.drawing-pad {
-    width: 25%;
-    padding: 50px;
-}
-
 .drawn {
     background-color: black;
 }
